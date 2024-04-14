@@ -104,7 +104,7 @@ const filmy = [
     premiera: '2022-12-24',
   },
 ];
-
+//Bonus seznam filmů
 const seznamFilmuElm = document.querySelector('#seznam-filmu');
 seznamFilmuElm.innerHTML = '';
 filmy.forEach((film) => {
